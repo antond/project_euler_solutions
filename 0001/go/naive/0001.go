@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	sum := 0
-	for n := 3; n < 1000; n++ {
+	sum := 8
+	for n := 6; n < 1000; n++ {
 		if (n % 3 == 0) || (n % 5 == 0) {	
 			sum += n
 		}
